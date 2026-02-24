@@ -1,0 +1,93 @@
+:root {
+    --primary-blue: #0084b4;
+    --dark: #1a1a1a;
+    --light-gray: #f4f7f6;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #fff;
+    color: var(--dark);
+}
+
+.container { width: 85%; margin: 0 auto; }
+
+.blue-text { color: var(--primary-blue); }
+
+/* Header */
+.nav-minimal { padding: 30px 0; border-bottom: 1px solid #eee; margin-bottom: 50px; }
+
+.nav-minimal .container { display: flex; justify-content: space-between; align-items: center; }
+
+.logo { font-weight: 700; font-size: 1.4rem; letter-spacing: 1px; }
+
+nav a { text-decoration: none; color: var(--dark); margin-left: 20px; font-weight: 500; font-size: 0.9rem; }
+
+nav a.active { color: var(--primary-blue); }
+
+/* Grid */
+.project-header { text-align: left; margin-bottom: 60px; }
+
+.project-header h1 { font-size: 2.8rem; margin: 0; font-weight: 700; }
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-bottom: 100px;
+}
+
+/* Card Styling */
+.project-card {
+    background: #fff;
+    border: 1px solid #eaeaea;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+    border-color: var(--primary-blue);
+}
+
+.project-img {
+    height: 220px;
+    background-color: #eee;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.tag {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    background: var(--primary-blue);
+    color: white;
+    padding: 5px 12px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.project-info { padding: 25px; }
+
+.project-info h3 { margin: 0 0 10px 0; font-size: 1.25rem; }
+
+.project-info p { font-size: 0.9rem; color: #666; line-height: 1.6; }
+
+.tech-tags { margin-top: 15px; }
+
+.tech-tags span {
+    display: inline-block;
+    background: var(--light-gray);
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    color: #444;
+    margin-right: 5px;
+}
