@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desktop Management | Services</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style_baru.css">
+    </head>
+
+    <body>
+       
+        <section class="sub-header">
+    <nav>
+        <a href="index_baru.html"><img src="logo.png" class="logo"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index_baru.html">HOME</a></li>
+                <li><a href="aboutUs_baru.html">ABOUT</a></li>
+                <li><a href="services_baru.html">SERVICES</a></li>
+                <li><a href="project_baru.html">PROJECT</a></li>
+                <li><a href="contactUs_baru.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <div class="text-box">
+        <h1>Proactive Desktop Management & Support</h1>
+        <p>Maximizing uptime through expert hardware maintenance and rapid troubleshooting for your entire fleet.</p>
+        
+    </div>
+</section>
+
+<!---------------SERVICES----------------------->
+
+       <section class="services" id="services">
+        
+    <div class="row">
+        <div class="service-col">
+            <i class="fa fa-desktop"></i>
+            <h3>System Optimization</h3>
+            <p>Comprehensive OS tuning, registry cleaning, and startup management to eliminate lag and ensure smooth daily operations.</p>
+        </div>
+
+        <div class="service-col">
+            <i class="fa fa-shield"></i>
+            <h3>Security & Patching</h3>
+            <p>Deployment of critical Windows/Linux updates, antivirus management, and removal of malware or bloatware that slows down productivity.</p>
+        </div>
+
+        <div class="service-col">
+            <i class="fa fa-refresh"></i>
+            <h3>Preventative Care</h3>
+            <p>Routine hardware health checks, internal dust removal, and thermal management to prevent component failure and extend hardware lifespan.</p>
+        </div>
+        <div class="service-col">
+                <i class="fa fa-microchip"></i>
+                <h3>System Diagnostics</h3>
+                <p>Advanced testing to ensure hardware stability and performance.</p>
+            </div>
+            <div class="service-col">
+                <i class="fa fa-cogs"></i>
+                <h3>Precision Repair</h3>
+                <p>From motherboard cleaning to thermal paste application, we handle delicate hardware with care.</p>
+            </div>
+            <div class="service-col">
+                <i class="fa fa-print"></i>
+                <h3>Printer Maintenance</h3>
+                <p>Complete servicing for home and office printers, including troubleshooting and toner replacement.</p>
+            </div>
+    </div>
+</section>
+
+
+<!----------FOOTER_---------->    
+    
+<footer class="footer-main">
+        <div class="footer-row">
+            <div class="footer-col">
+                <img src="logo.png" class="footer-logo">
+                <p>Your trusted partner in tech lifecycle management. We focus on reviving hardware and optimizing system performance.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Office <div class="underline"><span></span></div></h3>
+              
+                <h4>41A, JALAN SATU-BU 3, BANDAR UNIVERSITI, 32610,<br> SERI ISKANDAR, PERAK</h4>
+              <br>
+                <h4 class="email-id">info@2terminal.com</h4>
+                <br>
+                <h4>+60 19-426 5050</h4>
+            </div>
+            <div class="footer-col">
+                <h3>Links <div class="underline"><span></span></div></h3>
+                <ul>
+                   <li><a href="index_baru.html">HOME</a></li>
+                <li><a href="aboutUs_baru.html">ABOUT</a></li>
+                <li><a href="services_baru.html">SERVICES</a></li>
+                <li><a href="project_baru.html">PROJECT</a></li>
+                <li><a href="contactUs_baru.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Newsletter <div class="underline"><span></span></div></h3>
+                <form>
+                    <i class="fa fa-envelope-o"></i>
+                    <input type="email" placeholder="Enter your email id" required>
+                    <button type="submit"><i class="fa fa-arrow-right"></i></button>
+                </form>
+                <!----<div class="social-icons">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-whatsapp"></i>
+                    <i class="fa fa-pinterest"></i>
+                </div>---->
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">2Terminal © 2026 - All Rights Reserved</p>
+    </footer>
+
+ <!------------FUNTION FOR MEDIA LAYOUT------------>   
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() { navLinks.style.right = "0"; }
+        function hideMenu() { navLinks.style.right = "-200px"; }
+    </script>
+
+</body>
+</html>
